@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Flower Shop</title>
+	<meta name="description" content="#">
+
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="icon" href="img/rose.png">
+	
+	<link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body>
+	<header class="header">
+		<div class="container-lg">
+			<div class="header__top">
+				<div class="header__top-content">
+					<div class="d-md-none header__top-phone">
+						<a href="tel:1800000000" class="phone__link"><span>1800</span> 000 000</a>
+					</div>
+					<div class="socials header__socials">
+						<a href="#" class="socials__link"><i class="fab fa-facebook-f"></i></a>
+						<a href="#" class="socials__link"><i class="fab fa-twitter"></i></a>
+						<a href="#" class="socials__link"><i class="fab fa-instagram"></i></a>
+					</div>
+					<div class="sign-in">
+						<a href="#" class="login-btn">Login</a> 
+						|
+						<a href="#" class="reg-btn">Register</a>
+					</div>		
+				</div>
+			</div>
+			<div class="row header__present">
+				<div class="d-none d-md-inline-block col phone">
+					<div class="phone__icon">
+						<i class="fas fa-mobile-alt"></i>
+					</div>
+					<p class="phone__upper-title">Need help?</p>
+					<a href="tel:1800000000" class="phone__link"><span>1800</span> 000 000</a>
+				</div>
+				<div class="col header__logo">
+					<h1 class="title">Flowers Shop</h1>
+				</div>
+				<div class="d-none d-sm-flex col header__search">
+					<form class="search">
+						<button type="submit" class="search__submit">
+							<i class="fas fa-search"></i>
+						</button>
+						<input type="text" placeholder="Search" class="search__textarea">
+					</form>			
+				</div>
+			</div>
+		</div>
+		<div class="header__content">
+			<div class="container-lg">
+				<nav class="header__nav">
+					<a href="#" class="header__nav-link">Home</a>
+					<a href="#" class="header__nav-link">Christmas</a>
+					<a href="#" class="header__nav-link">Season's Best</a>
+					<a href="#" class="header__nav-link">Wedding</a>
+					<a href="#" class="d-none d-md-inline-block header__nav-link">By Occasions</a>
+					<a href="#" class="d-none d-lg-inline-block header__nav-link">By Types</a>
+					<a href="#" class="d-none d-lg-inline-block header__nav-link">By Prices</a>
+					<a href="#" class="d-none d-xl-inline-block header__nav-link">By Flowers</a>
+					<a href="#" class="d-none d-sm-inline-block header__nav-link">Plants</a>
+					<a href="#" class="d-none d-md-inline-block header__nav-link">Terrariums</a>
+				</nav>
+				<div class="d-none d-sm-block header__cart">
+					<a href="#" class="header__cart-link">
+						<i class="fas fa-shopping-cart"></i>
+						Cart (<span class="cart-count">0</span>)
+					</a>
+				</div>
+			</div>
+			</div>	
+			<div class="d-none d-lg-block container header__info">
+				<div class="row">
+					<div class="col">
+						<p class="header__info-text">
+						<i class="fas fa-lock fas--blue"></i>100% Secure & PCI Compliance</p>
+					</div>
+					<div class="col">
+						<p class="header__info-text">
+						<i class="fas fa-truck fas--orange"></i>
+						Order by 2PM for Same day delivery</p>
+					</div>
+					<div class="col">
+						<p class="header__info-text">
+						<i class="fas fa-thumbs-up fas--green"></i>
+						100% Satisfaction Guaranteed</p>
+					</div>
+				</div>
+			</div>
+
+	<div class="login-form-box">
+		<form action='' class="login-form">
+			<div class="title">Flower Shop</div>
+			<input type="email" class="login" value="22222" name="mail" placeholder="Email"
+			 onblur="this.placeholder='Email'" autocomplete="username"
+			  onfocus="this.placeholder = ''" required><br>
+			<input type="password" class="password" name="password" placeholder="Password"
+			 onblur="this.placeholder='Password'" autocomplete="current-password" onfocus="this.placeholder = ''" required><br>
+			<input type="checkbox" id="remember" class="remember">
+			<label for="remember">Remember me</label>	<br>
+			<input type="submit" class="button" value='Log In'>
+		</form>
+	</div>	
+	</header>
+	
+	<main>
+		<section class="promo">
+			<div class="container-lg">
+				<div class="row">
+					<div class="d-none d-lg-block col-3">
+						<aside class='promo__category'>
+							<div class="catalog">
+								<p class="upper-title">order</p>
+								<h2 class="catalog-title decor">Flowers</h2>
+								<p class="text">Shop Our Collection</p>
+								<a href="#" class="butn catalog__butn"><i class="fas fa-angle-right"></i></a>
+							</div>
+							<div class="catalog">
+								<p class="upper-title">order</p>
+								<h2 class="catalog-title decor">Flowers</h2>
+								<p class="text">Shop Our Collection</p>
+								<a href="#" class="butn catalog__butn"><i class="fas fa-angle-right"></i></a>
+							</div>
+							<div class="catalog">
+								<p class="upper-title">order</p>
+								<h2 class="catalog-title decor">Flowers</h2>
+								<p class="text">Shop Our Collection</p>
+								<a href="#" class="butn catalog__butn"><i class="fas fa-angle-right"></i></a>
+							</div>
+						</aside>
+					</div>
+					<div class="col promo__content">
+						<div class="d-none d-sm-block col-4 col-md-6"></div>
+							<div class="col">
+							<div class="promo__composition">
+								<div class="promo__logo">
+									<img src='img/promo-logo.png' alt="fdf">
+								</div>
+								<p class="promo__composition-text">
+									100% Moneyback Guarantee
+								</p>
+								<a href="#" class="butn promo__composition-butn">Shop Now <i class="fas fa-angle-right"></i></a>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>			
+
+		<section class="featured">
+			<div class="container">
+				<h3 class="carousel-title">Featured Products</h3>
+				<div class="products-carousel featured__carousel">
+					<div class="item">
+						<h2 class="item__name">Item Name</h2>
+						<div class="item__img">
+							<img src="img/item-img.png" alt="item">
+						</div>
+						<div class="item__description">
+							<span class="item__price">$ 28.50</span>
+							<a href="#" class="butn item__butn">Order Now</a>
+						</div>
+					</div>
+					<div class="item">
+						<h2 class="item__name">Item Name</h2>
+						<div class="item__img">
+							<img src="img/item-img.png" alt="item">
+						</div>
+						<div class="item__description">
+							<span class="item__price">$ 28.50</span>
+							<a href="#" class="butn item__butn">Order Now</a>
+						</div>
+					</div>
+					<div class="item">
+						<h2 class="item__name">Item Name</h2>
+						<div class="item__img">
+							<img src="img/item-img.png" alt="item">
+						</div>
+						<div class="item__description">
+							<span class="item__price">$ 28.50</span>
+							<a href="#" class="butn item__butn">Order Now</a>
+						</div>
+					</div>
+					<div class="item">
+						<h2 class="item__name">Item Name</h2>
+						<div class="item__img">
+							<img src="img/item-img.png" alt="item">
+						</div>
+						<div class="item__description">
+							<span class="item__price">$ 28.50</span>
+							<a href="#" class="butn item__butn">Order Now</a>
+						</div>
+					</div>
+					<div class="item">
+						<h2 class="item__name">Item Name</h2>
+						<div class="item__img">
+							<img src="img/item-img.png" alt="item">
+						</div>
+						<div class="item__description">
+							<span class="item__price">$ 28.50</span>
+							<a href="#" class="butn item__butn">Order Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="featured">
+			<div class="container">
+				<h3 class="carousel-title">New Arrivals</h3>
+				<div class="products-carousel featured__carousel">
+					<div class="item">
+						<h2 class="item__name">Item Name</h2>
+						<div class="item__img">
+							<img src="img/item-img.png" alt="item">
+						</div>
+						<div class="item__description">
+							<span class="item__price">$ 28.50</span>
+							<a href="#" class="butn item__butn">Order Now</a>
+						</div>
+					</div>
+					<div class="item">
+						<h2 class="item__name">Item Name</h2>
+						<div class="item__img">
+							<img src="img/item-img.png" alt="item">
+						</div>
+						<div class="item__description">
+							<span class="item__price">$ 28.50</span>
+							<a href="#" class="butn item__butn">Order Now</a>
+						</div>
+					</div>
+					<div class="item">
+						<h2 class="item__name">Item Name</h2>
+						<div class="item__img">
+							<img src="img/item-img.png" alt="item">
+						</div>
+						<div class="item__description">
+							<span class="item__price">$ 28.50</span>
+							<a href="#" class="butn item__butn">Order Now</a>
+						</div>
+					</div>
+					<div class="item">
+						<h2 class="item__name">Item Name</h2>
+						<div class="item__img">
+							<img src="img/item-img.png" alt="item">
+						</div>
+						<div class="item__description">
+							<span class="item__price">$ 28.50</span>
+							<a href="#" class="butn item__butn">Order Now</a>
+						</div>
+					</div>
+					<div class="item">
+						<h2 class="item__name">Item Name</h2>
+						<div class="item__img">
+							<img src="img/item-img.png" alt="item">
+						</div>
+						<div class="item__description">
+							<span class="item__price">$ 28.50</span>
+							<a href="#" class="butn item__butn">Order Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="featured">
+			<div class="container">
+				<h3 class="carousel-title">Most Popular</h3>
+				<div class="products-carousel featured__carousel">
+					<div class="item">
+						<h2 class="item__name">Item Name</h2>
+						<div class="item__img">
+							<img src="img/item-img.png" alt="item">
+						</div>
+						<div class="item__description">
+							<span class="item__price">$ 28.50</span>
+							<a href="#" class="butn item__butn">Order Now</a>
+						</div>
+					</div>
+					<div class="item">
+						<h2 class="item__name">Item Name</h2>
+						<div class="item__img">
+							<img src="img/item-img.png" alt="item">
+						</div>
+						<div class="item__description">
+							<span class="item__price">$ 28.50</span>
+							<a href="#" class="butn item__butn">Order Now</a>
+						</div>
+					</div>
+					<div class="item">
+						<h2 class="item__name">Item Name</h2>
+						<div class="item__img">
+							<img src="img/item-img.png" alt="item">
+						</div>
+						<div class="item__description">
+							<span class="item__price">$ 28.50</span>
+							<a href="#" class="butn item__butn">Order Now</a>
+						</div>
+					</div>
+					<div class="item">
+						<h2 class="item__name">Item Name</h2>
+						<div class="item__img">
+							<img src="img/item-img.png" alt="item">
+						</div>
+						<div class="item__description">
+							<span class="item__price">$ 28.50</span>
+							<a href="#" class="butn item__butn">Order Now</a>
+						</div>
+					</div>
+					<div class="item">
+						<h2 class="item__name">Item Name</h2>
+						<div class="item__img">
+							<img src="img/item-img.png" alt="item">
+						</div>
+						<div class="item__description">
+							<span class="item__price">$ 28.50</span>
+							<a href="#" class="butn item__butn">Order Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+	
+
+	<footer class="footer">
+		<div class="container-lg">
+			<div class="row footer__top">
+				<div class="col-6 col-md-2">
+						<h3 class="footer-title">Links</h3>
+						<ul>
+							<li><a href="#" class="footer__link">
+								About Us
+							</a></li>
+							<li><a href="#" class="footer__link">
+								Contact Us
+							</a></li>
+							<li><a href="#" class="footer__link">
+								Delivery Policy
+							</a></li>
+							<li><a href="#" class="footer__link">
+								Privacy Policy
+							</a></li>
+							<li><a href="#" class="footer__link">
+								Security Policy
+							</a></li>
+							<li><a href="#" class="footer__link">
+								Terms and Conditions
+							</a></li>
+							<li><a href="#" class="footer__link">
+								FAQ
+							</a></li>
+						</ul>
+				</div>
+				<div class="col-6 col-md-3 useful-inf">
+					<h3 class="footer-title">Useful Information</h3>
+					<ul>
+						<li><a href="#" class="footer__link">
+								Caring for flowers
+						</a></li>
+						<li><a href="#" class="footer__link">
+								Caring for plants
+						</a></li>
+						<li><a href="#" class="footer__link">
+								Flower meaning
+						</a></li>
+						<li><a href="#" class="footer__link">
+								How to choose flowers
+						</a></li>
+						<li><a href="#" class="footer__link">
+								Message ideas
+						</a></li>
+					</ul>
+				</div>
+				<div class="col-6 col-md-3">
+					<h3 class="footer-title">Stay connected</h3>
+					<p>Join our email list for exclusive news and deals</p>
+					<form action='' class="footer__subscribe">
+						<input type="text" placeholder="Enter your name">
+						<input type="mail" placeholder="Enter your mail">
+						<input type="submit" value="Join Now">
+					</form>
+				</div>
+				<div class="col-6 col-md-4">
+					<h3 class="footer-title">Testimonials</h3>
+					<p class="footer__text">Lorem, ipsum dolor 
+								sit, amet consectetur adipisicing elit. 
+								Dolor, tenetur. Voluptatem ipsa quo placeat 
+								harum possimus porro perspiciatis tenetur, modi.</p>
+					<p class="footer__text">Lorem, ipsum dolor 
+								sit, amet consectetur adipisicing elit. 
+								Dolor, tenetur. Voluptatem ipsa quo placeat 
+								harum possimus porro perspiciatis tenetur, modi.</p>			
+				</div>
+			</div>
+		</div>	
+		<div class="footer__bottom">	
+			<div class="container-lg">
+				<div class="row">
+						<div class="col-12 col-sm">
+							<div class="footer__payments">
+								<img src="img/payments.png" alt="payments">
+							</div>
+						</div>
+						<div class="col-12 col-sm">
+							<p class="footer__copy">© 2020 flowershop.com</p>
+						</div>
+						<div class="col-12 col-sm">
+							<div class="socials footer__socials">
+								<a href="#" class="socials__link"><i class="fab fa-facebook-f"></i></a>
+								<a href="#" class="socials__link"><i class="fab fa-twitter"></i></a>
+								<a href="#" class="socials__link"><i class="fab fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>		
+	</footer>
+
+	<script src="js/scripts.js"></script>
+</body>
+</html>
